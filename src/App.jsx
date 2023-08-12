@@ -13,7 +13,7 @@ import {
 const App = () => {
   return (
     <div className="relative z-0 bg-slate-900">
-      <div className="bg-[url(https://wallpaperaccess.com/full/2454628.png)] bg-cover bg-no-repeat bg-center" >
+      <div className="bg-[url(https://wallpaperaccess.com/full/2454628.png)] bg-cover bg-no-repeat bg-center">
         <Navbar />
         <Hero />
       </div>

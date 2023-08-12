@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="w-1 h-40 sm:h-80 rounded-full  violet-gradient " />
         </div>
         <div>
-          <h1 className="text-white font-black lg:text-[60px] sm:text-[40px] xs:text[50px] text-[20px] lg:leading-[98px] mt-2 ">
+          <h1 className="text-white font-black lg:text-[60px] z-20 sm:text-[40px] xs:text[50px] text-[20px] lg:leading-[98px] mt-2 ">
             Hi, I'm <span className="text-[#915eff]">Mohit Mehra</span>
           </h1>
           <p className="text-[#dfd9ff]  font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px] mt-2 text-white-100">
