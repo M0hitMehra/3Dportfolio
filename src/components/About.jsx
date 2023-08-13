@@ -9,7 +9,7 @@ let direction = "";
 const ServiceCard = ({ index, title, icon }) => {
   direction = "right";
   return (
-    <Tilt className="xs:w-[250px] w-full">
+    <Tilt className="xs:w-[250px] w-full" >
       <motion.div
         variants={{
           hidden: {

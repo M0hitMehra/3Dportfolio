@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
   Decal,
+  Environment,
   Float,
   OrbitControls,
   Preload,
@@ -34,14 +35,15 @@ const Ball = (props) => {
   );
 };
 
-const BallCanvas = ({ icon }) => {
+const BallCanvas = ({ icon ,value}) => {
   return (
     <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />}>
         {" "}
         {/* Remove the fallback component for now */}
-        <OrbitControls enableZoom={false} />
+        <OrbitControls enableZoom={false} autoRotate autoRotateSpeed={value+1}/>
         <Ball imgUrl={icon} />
+        <Environment preset="sunset" />
       </Suspense>
       <Preload all />
     </Canvas>

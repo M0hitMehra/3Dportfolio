@@ -60,14 +60,14 @@ const [down, setDown] = useState(false)
       {/* <directionalLight intensity={50} position={[0, 10, 0]} /> */}
       {/* <ambientLight intensity={1} /> */}
       <Suspense fallback={<Loader />}>
-        {" "}
-        {/* Remove the fallback component for now */}
-        <OrbitControls
+          <OrbitControls
+          autoRotate
+          autoRotateSpeed={-1.5}
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Computers isMobile={isMobile} />
+        <Computers isMobile={isMobile}  />
         <Environment preset="sunset" background={down ? true : false} />
       </Suspense>
       <Preload all />

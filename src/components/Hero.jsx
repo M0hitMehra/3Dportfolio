@@ -22,23 +22,22 @@ const Hero = () => {
         </div>
       </div>
       <ComputersCanvas />
-      <div className="absolute flex justify-center items-center xs:bottom-32 w-full" >
-          <a href="#about">
-            <div className="w-[35px] h-[64px] rounded-3xl border-4 flex justify-center items-start p-2 border-slate-400 " >
-              <motion.div animate={{
-                y:[0,24,0]
+      <div className=" absolute flex justify-center items-center xs:bottom-10 bottom-16 w-full">
+        <a href="#about">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 flex justify-center items-start p-2 border-slate-400 ">
+            <motion.div
+              animate={{
+                y: [0, 24, 0],
               }}
               transition={{
-                duration:1.5,
-                repeat:Infinity,
-                repeatType:"loop"
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: "loop",
               }}
               className="w-3 h-4 bg-slate-400 rounded-full mb-1"
-              >
-
-              </motion.div>
-            </div>
-          </a>
+            ></motion.div>
+          </div>
+        </a>
       </div>
     </section>
   );
