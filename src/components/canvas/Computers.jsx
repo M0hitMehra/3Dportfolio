@@ -68,7 +68,10 @@ const [down, setDown] = useState(false)
           minPolarAngle={Math.PI / 2}
         />
         <Computers isMobile={isMobile}  />
+        {
+!isMobile &&
         <Environment preset="sunset" background={down ? true : false} />
+        }
       </Suspense>
       <Preload all />
     </Canvas>
