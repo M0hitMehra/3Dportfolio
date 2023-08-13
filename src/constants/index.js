@@ -23,7 +23,15 @@ import {
   jobit,
   tripguide,
   threejs,
+
+ 
 } from "../assets";
+
+import courseBundler from "../assets/courseBundler.png"
+import tasking from "../assets/tasking.png"
+import store from "../assets/store.png"
+
+
 
 export const navLinks = [
   {
@@ -148,7 +156,7 @@ const experiences = [
       Simmi Foundation's website, elevating the overall user
       experience. Employed innovative design techniques and
       best practices to optimize usability, resulting in improved
-      engagement and satisfaction among website visitors`
+      engagement and satisfaction among website visitors`,
     ],
   },
   {
@@ -208,9 +216,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ecommerce Store",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is a full stack web app with payment options, Authentication, password Encryption, and separate Admin and user dashboard",
     tags: [
       {
         name: "react",
@@ -221,45 +229,45 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: store,
+    source_code_link: "https://github.com/M0hitMehra/mernStackE-Store",
   },
   {
-    name: "Job IT",
+    name: "E-learning store",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      " spearheaded the development of Course Bundler, an e-learning platform API using Express, Node.js, and MongoDB. Focusing on backend development, database management, and authentication, I built a robust and secure system that enables seamless course management, user authentication, and data storage for a dynamic elearning experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "chakraUi",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: courseBundler,
+    source_code_link: "https://github.com/M0hitMehra/courseBundlerFrontend",
   },
   {
-    name: "Trip Guide",
+    name: "Task App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is a comprehensive task management application that provides users with the ability to add, edit, and delete tasks. The app utilizes the react-beautiful-drag-drop library, which enables the incorporation of drag-and-drop functionality within the application.",
     tags: [
       {
-        name: "nextjs",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
@@ -267,8 +275,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: tasking,
+    source_code_link: "https://github.com/M0hitMehra/typeScriptTaskApp",
   },
 ];
 
