@@ -10,13 +10,15 @@ import {
   Tech,
   Works,
 } from "./components";
+import back from "../src/assets/heroBack.webp"
 const App = () => {
   return (
     <div className="relative z-0 bg-slate-900">
-      <div className=" bg-cover bg-no-repeat bg-center"
-      style={{
-        background:"url(src/assets/heroBack.webp)"
-      }}
+      <div
+        className=" bg-cover bg-no-repeat bg-center"
+        style={{
+          background: `url(${back})`,
+        }}
       >
         <Navbar />
         <Hero />
