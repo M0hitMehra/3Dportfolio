@@ -13,7 +13,11 @@ import {
 const App = () => {
   return (
     <div className="relative z-0 bg-slate-900">
-      <div className="bg-[url(./assets/heroback.webp)] bg-cover bg-no-repeat bg-center">
+      <div className=" bg-cover bg-no-repeat bg-center"
+      style={{
+        background:"url(src/assets/heroBack.webp)"
+      }}
+      >
         <Navbar />
         <Hero />
       </div>
